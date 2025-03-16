@@ -1,0 +1,13 @@
+1. Clasa Aplicant nu respecta principiul S, asa ca am creat o clasa StatutAplicant
+   pentru a verifica in Program statutul fiecarui aplicant
+
+2. Clasele Angajat, Elev, Student nu respecta principiul S, asa ca am creat o clasa
+   CalculatorFinantare cu o metoda de calcul a finantarii care primeste ca parametri
+   aplicantul si suma de bani pe zi primita
+
+3. Clasa Utils nu respecta principiile S si O, asadar am creat o interfata care sa
+   separe citirea tipurilor de aplicanti, pentru a nu modifica ulterior clasa Utils
+   daca apar tipuri noi de aplicanti si am creat clasele pentru fiecare tip
+   de aplicant: Elev, Student, Angajat.
+   Am redenumit numele clasei in "AfisareAplicanti" intrucat doar asta face,
+   respectand principiul S
